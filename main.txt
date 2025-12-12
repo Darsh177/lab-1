@@ -1,1 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int sum(int a, int b, int c);
+int diff(int a, int b, int c);
+int mul(int a, int b, int c); 
+
+int main()
+{
+    cout << "This line wont dev" << endl;
+    cout << "guess why?" << endl;
+    cout << "Dear Student!" << endl;
+    cout << "Let's try new concept!" << endl;
+    cout << "Learning git is fun!" << endl;
+    cout << "master add" << endl;
+
+    
+    int x = 10, y = 5, z = 2;
+
+    cout << "\n--- Function Results ---" << endl;
+    cout << "Sum (10 + 5 + 2): " << sum(x, y, z) << endl;
+    cout << "Difference (10 - 5 - 2): " << diff(x, y, z) << endl;
+    cout << "Multiplication (10 * 5 * 2): " << mul(x, y, z) << endl;
+
+    return 0;
+}
+
+
+int sum(int a, int b, int c)
+{
+    return a + b + c;
+}
+
+int diff(int a, int b, int c)
+{
+    return a - b - c;
+}
+
+int mul(int a, int b, int c)
+{
+    return a * b * c;
+}
 
