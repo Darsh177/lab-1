@@ -1,0 +1,11 @@
+name: hello 
+
+on: push
+ jobs: 
+   hello:
+     runs-on: abuntu-latest
+     steps: 
+     -uses: action/checkout@v1
+     -name: print hello
+      run : echo "hello seif"
+ 
